@@ -51,7 +51,6 @@ public class payrollCalculator {
             employees emp = new employees(employeeId, name, hoursWorked, payRate);
 
             buffWrite.write(emp.getEmployeeId() + " , " + emp.getName() + " , " + emp.getGrossPay() + "\n");
-            buffWrite.newLine();
         }
 
 
